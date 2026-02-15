@@ -1,0 +1,32 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "@google/genai": "^1.41.0",
+    "@google/generative-ai": "^0.24.1",
+    "bcrypt": "^6.0.0",
+    "better-sqlite3": "^12.6.2",
+    "chromadb": "^3.3.0",
+    "cookie-parser": "^1.4.7",
+    "dotenv": "^17.2.4",
+    "express": "^5.2.1",
+    "js-tiktoken": "^1.0.21",
+    "jsonwebtoken": "^9.0.3",
+    "multer": "^2.0.2",
+    "pdf-parse": "^1.1.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.11"
+  }
+}
